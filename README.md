@@ -1,6 +1,6 @@
 # Jenkins JNLP Agent Docker image with Maven & Node.js
 
-[`vkarapatakis/docker-jnlp-maven-node-slave`](https://hub.docker.com/r/vkarapatakis/docker-jnlp-maven-node-slave/)
+[`vkarapatakis/docker-jnlp-maven-node-slave`](https://hub.docker.com/r/vkarapatakis/jenkins-jnlp-maven-node-slave)
 
 Extend the [Jenkins JNLP Agent Docker image](https://hub.docker.com/r/jenkinsci/jnlp-slave/) with [Apache Maven](https://maven.apache.org) and [Node.js](https://nodejs.org).
 
@@ -14,7 +14,7 @@ See [Jenkins Distributed builds](https://wiki.jenkins-ci.org/display/JENKINS/Dis
 To run a Docker container:
 
 ```shell
-docker run vkarapatakis/docker-jnlp-maven-node-slave -url http://jenkins-server:port <secret> <agent name>
+docker run vkarapatakis/jenkins-jnlp-maven-node-slave -url http://jenkins-server:port <secret> <agent name>
 ```
 
 Optional environment variables:
