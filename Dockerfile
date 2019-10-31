@@ -1,4 +1,6 @@
-FROM jenkins/jnlp-slave:latest
+FROM jenkins/jnlp-slave:3.35-5
+
+LABEL maintainer="Vassilis Karapatakis <vassilis.karapatakis@iteam.gr>"
 
 USER root
 
