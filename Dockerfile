@@ -1,6 +1,5 @@
-LABEL maintainer="Vassilis Karapatakis <vassilis.karapatakis@iteam.gr>"
-
 FROM jenkins/jnlp-slave:3.35-5
+LABEL maintainer="Vassilis Karapatakis <vassilis.karapatakis@iteam.gr>"
 
 USER root
 
@@ -20,7 +19,7 @@ ENV MAVEN_HOME=/usr/share/maven
 ###########
 # Node.js
 ###########
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash \
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash \
     && apt-get install -y nodejs
 
 USER jenkins
