@@ -1,5 +1,11 @@
 # Jenkins JNLP Agent Docker image with Maven & Node.js
 
+[![Docker](https://github.com/vassilis-karapatakis/jenkins-jnlp-maven-node-slave/actions/workflows/docker.yml/badge.svg)](https://github.com/vassilis-karapatakis/jenkins-jnlp-maven-node-slave/actions/workflows/docker.yml)
+
+[![CodeFactor](https://www.codefactor.io/repository/github/vassilis-karapatakis/jenkins-jnlp-maven-node-slave/badge)](https://www.codefactor.io/repository/github/vassilis-karapatakis/jenkins-jnlp-maven-node-slave)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f8056d20ca114dd5b0c78be231b411c8)](https://www.codacy.com/gh/vassilis-karapatakis/jenkins-jnlp-maven-node-slave/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vassilis-karapatakis/jenkins-jnlp-maven-node-slave&amp;utm_campaign=Badge_Grade)
+
 Extend the [Jenkins JNLP Agent Docker image](https://hub.docker.com/r/jenkinsci/jnlp-slave/) with [Apache Maven](https://maven.apache.org) and [Node.js](https://nodejs.org).
 
 This is an image for [Jenkins](https://jenkins.io) agent (FKA "slave") using JNLP to establish connection.
