@@ -8,7 +8,7 @@ ENV JAVA_HOME=/usr/local/openjdk-8
 ##########
 # Maven
 ##########
-ENV MAVEN_VERSION=3.6.3
+ENV MAVEN_VERSION=3.8.6
 
 RUN curl -fsSL http://archive.apache.org/dist/maven/maven-3/$MAVEN_VERSION/binaries/apache-maven-$MAVEN_VERSION-bin.tar.gz | tar xzf - -C /usr/share \
     && mv /usr/share/apache-maven-$MAVEN_VERSION /usr/share/maven \
