@@ -1,6 +1,6 @@
 # Jenkins JNLP Agent Docker image with Maven & Node.js
 
-[![Docker](https://github.com/vassilis-karapatakis/jenkins-jnlp-maven-node-slave/actions/workflows/docker.yml/badge.svg?branch=master)](https://github.com/vassilis-karapatakis/jenkins-jnlp-maven-node-slave/actions/workflows/docker.yml)
+[![Docker](https://github.com/vassilis-karapatakis/jenkins-jnlp-maven-node-slave/actions/workflows/docker.yml/badge.svg)](https://github.com/vassilis-karapatakis/jenkins-jnlp-maven-node-slave/actions/workflows/docker.yml)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/vassilis-karapatakis/jenkins-jnlp-maven-node-slave/badge)](https://www.codefactor.io/repository/github/vassilis-karapatakis/jenkins-jnlp-maven-node-slave)
 
